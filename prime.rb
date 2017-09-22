@@ -5,13 +5,13 @@ def prime?(n)
     else
       true
     end
-
-end# Add  code here!
+  end
+end
 
 =begin
 
-obtain all the divisors -- how? 
-do these divisors divide cleanly into num? 
+obtain all the divisors -- how?
+do these divisors divide cleanly into num?
 can (0..x)
 
 prime -- can no longer be divided by itself. whole number factors are 1 and itself
