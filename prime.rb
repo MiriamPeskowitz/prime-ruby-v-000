@@ -7,7 +7,7 @@ def prime?(num)
         true
       elsif num == num * 1 && num = num**2
         true
-    
+
       end
 
 
