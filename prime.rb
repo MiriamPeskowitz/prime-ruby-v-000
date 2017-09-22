@@ -1,7 +1,7 @@
 def prime?(n)
   range = (2..(n-1)).to_a
   return false if n < 1
-    range.any? do |num|
+    !range.any? do |num|
      n % num == 0
    end
 end
