@@ -1,6 +1,6 @@
 def prime?(n)
   range = (2..(n-1))
-  if n > 0 
+  if n > 0
     range.each do |num|
       n % num == 0
       return false
