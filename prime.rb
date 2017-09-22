@@ -1,12 +1,14 @@
 def prime?(n)
   if n < 0
     return false
-  end
-  for num in (2..n-1) do
-    if num % n == 0
-      return false
-    else
-    end
+  elsif
+    for num in (2..n-1) do
+      if num % n == 0
+        return false
+
+  else
+      return true
+      
   end
   return true
 end
