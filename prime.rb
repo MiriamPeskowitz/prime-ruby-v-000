@@ -1,16 +1,14 @@
 def prime?(n)
-  if n < 0
-    return false
-  elsif
-    for num in (2..n-1) do
-      if num % n == 0
-        return false
-
-  else
+  range = (2..(n-1))
+  if n > 0 
+    range.each do |num|
+      n % num == 0
+      return false
+    else
       return true
-      
+    end
   end
-  return true
+  return false
 end
 
 =begin
