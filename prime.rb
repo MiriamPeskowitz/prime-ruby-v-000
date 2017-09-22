@@ -8,8 +8,9 @@ def prime?(n)
       return true
      end
   end
-  return false
+  
 end
+return false
 end
 
 =begin
