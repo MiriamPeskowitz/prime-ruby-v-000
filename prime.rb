@@ -9,7 +9,6 @@ def prime?(n)
       return true
     end
   end
-  true
 end
 
 =begin
