@@ -1,6 +1,6 @@
 def prime?(n)
   for num in (2..n-1) do
-  
+
     if n % num == 0 || n < 0
       return false
     end
