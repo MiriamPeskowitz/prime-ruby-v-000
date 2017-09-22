@@ -1,5 +1,6 @@
 def prime?(n)
   range = (2..(n-1)).to_a
+  return false if n > 0
   if n > 1
     range.each do |num|
      if  n % num == 0
