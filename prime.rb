@@ -1,9 +1,9 @@
 def prime?(num)
 
 
-      if num = num * 1 && num = num**2
+      if num == num * 1 && num = num**2
         true
-      elsif num = 1
+      elsif num == 1
         false
       elsif num == 2 || numb == 3
         true
