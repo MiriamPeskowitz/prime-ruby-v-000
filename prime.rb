@@ -4,11 +4,12 @@ def prime?(n)
     range.each do |num|
      if  n % num == 0
       return false
-    else
+     else
       return true
-    end
+     end
   end
   return false
+end
 end
 
 =begin
