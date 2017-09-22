@@ -3,6 +3,7 @@ def prime?(n)
   return false if n < 1
     range.any? do |num|
      n % num == 0
+   end
 end
 
 =begin
