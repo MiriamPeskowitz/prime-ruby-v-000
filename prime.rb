@@ -2,7 +2,7 @@ def prime?(n)
   for num in (2..n-1) do
     if num % n == 0
       return false
-    else 
+    else
       return true
   end
   true
