@@ -3,9 +3,10 @@ def prime?(n)
     if n % num == 0
       false
     else
-      true
+
     end
   end
+  true
 end
 
 =begin
