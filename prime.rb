@@ -3,7 +3,7 @@ def prime?(num)
 
       if num == 1
         false
-      elsif num == 2 || numb == 3
+      elsif num == 2 || num == 3
         true
       elsif num == num * 1 && num = num**2
         true
