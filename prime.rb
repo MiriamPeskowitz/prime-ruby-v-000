@@ -1,22 +1,19 @@
-def prime?(num)
-
-
-      if num == 1 || num == 0
-        false
-    
-      elsif num == 2 || num == 3
-        true
-      elsif num == num * 1 && num = num ** 2
-        true
-      else
-        false
-
-      end
-
+def prime?(n)
+  for num in (2..n-1) do
+    if n % num == 0
+      false
+    else
+      true
+    end
 
 end# Add  code here!
 
 =begin
+
+obtain all the divisors -- how? 
+do these divisors divide cleanly into num? 
+can (0..x)
+
 prime -- can no longer be divided by itself. whole number factors are 1 and itself
 2, 3, 5, 7, 11, 13, 17, 19, 23, and 29
 
