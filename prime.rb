@@ -6,9 +6,9 @@ def prime?(n)
     if num % n == 0
       return false
     else
-      return true
     end
   end
+  return true
 end
 
 =begin
